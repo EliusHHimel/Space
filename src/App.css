@@ -1,17 +1,50 @@
 body {
   background: #1E1B3A;
+  background: url(./images/Space-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
   color: #fff;
   margin-top: 10px;
+  padding: 0% 13%;
 }
 
 .white {
   color: #fff;
 }
 
-.App {
-  text-align: center;
+.nav-link {
+  color: #fff;
+  font-weight: 500;
+  transition: 0.5s;
+}
+.nav-link:hover {
+  color: #b3006e;
 }
 
+.text-justify{
+  text-align: justify;
+}
+
+.text-grad-purple {
+  background: linear-gradient(95.79deg, #2317FA -33%, #ea00ff 97%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* .App {
+  text-align: center;
+} */
+.welcome-text {
+  background: #09090971;
+  width: fit-content;
+  padding: 0px 15px;
+  border-radius: 5px;
+}
+.pwidth {
+  width: 23%;
+}
 .russo-font {
   font-family: 'Russo One', sans-serif;
 }
@@ -46,4 +79,32 @@ a {
 
 .gap {
   gap: 1rem;
+}
+
+.banner-container {
+  margin-top: 50px;
+}
+.headline {
+  font-size: 4.5rem;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.start-btn{
+  display: block;
+  margin-top: 25px;
+  background: linear-gradient(95.79deg, #2317FA -33%, #ea00ff 97%);
+  width: fit-content;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+
+/* On hover a border comes and the button glows */
+.start-btn:hover {
+  background: linear-gradient(95.79deg, #ea00ff -33%, #2317FA 97%);
+  transform: scale(1.1);
+  box-shadow: 0px 0px 20px 0px #ea00ff;
 }

@@ -3,7 +3,7 @@ import logo from '../../images/logo.png';
 
 const Navbar = () => {
     return (
-        <div className='flex justify-around align-center'>
+        <div className='flex justify-between align-center'>
             <div className='flex justify-center align-center gap'>
                 <img src={logo} style={
                     {
@@ -14,11 +14,11 @@ const Navbar = () => {
             </div>
             <div>
                 <ul className='flex justify-center align-center gap'>
-                    <li><a href='#home' className='white'>Home</a></li>
-                    <li><a href='#about' className='white'>About</a></li>
-                    <li><a href='#story' className='white'>Story</a></li>
-                    <li><a href='#blog' className='white'>Blog</a></li>
-                    <li><a href='#contact' className='white'>Contact Us</a></li>
+                    <li><a href='#home' className='white nav-link'>Home</a></li>
+                    <li><a href='#about' className='white nav-link'>About</a></li>
+                    <li><a href='#story' className='white nav-link'>Story</a></li>
+                    <li><a href='#blog' className='white nav-link'>Blog</a></li>
+                    <li><a href='#contact' className='white nav-link'>Contact Us</a></li>
                 </ul>
             </div>
         </div>
