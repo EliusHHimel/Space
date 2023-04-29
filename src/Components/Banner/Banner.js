@@ -3,10 +3,10 @@ import planet1 from '../../images/planet-01.png';
 
 const Banner = () => {
     return (
-        <div className='banner-container'>
+        <div className='banner-container default-padding'>
             <div>
                 <div className='flex align-center gap welcome-text'>
-                    <img width={50} src={planet1} alt="planet" />
+                    <img width={30} src={planet1} alt="planet" />
                     <h4 className='text-grad-purple'>Welcome to Stella</h4>
                 </div>
                 <h1 className='russo-font headline'>SPACE FOR <br /> EVERYONE</h1>
