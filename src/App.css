@@ -31,11 +31,11 @@ body {
 }
 
 .nav-link:hover {
-  color: #b3006e;
+  color: lightseagreen;
 }
 
 .nav-link:focus {
-  color: #b3006e;
+  color: lightseagreen;
   border-bottom: lightseagreen 1px solid;
 }
 
@@ -177,14 +177,16 @@ a {
 
   .headline {
     font-size: 3.5rem;
+    margin-top: 35px;
   }
 
   .pwidth {
     width: 70%;
+    margin-top: 35px;
   }
 
   .welcome-text {
-    margin-top: 25%;
+    margin-top: 35%;
   }
 
   .dnone {
@@ -192,7 +194,7 @@ a {
   }
 
   .start-btn {
-    margin-top: 25px;
+    margin-top: 35px;
   }
 
   .navbar {
@@ -241,7 +243,10 @@ a {
 
   .nav-link:hover {
     background: #3f3a7c;
-    color: lightseagreen;
+  }
+
+  .banner-container {
+    background-size: cover;
   }
 
   @keyframes reveal {
