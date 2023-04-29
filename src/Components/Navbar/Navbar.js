@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from '../../images/logo.png';
 
 const Navbar = () => {
-    function menuToggler(x) {
-        x.classList.toggle("change");
-      }
+    const [isActive, setActive] = useState(false);
+    function menuToggler() {
+        setActive(!isActive);
+    }
     return (
         <div className='navbar'>
             <div className='flex justify-center align-center gap'>
@@ -17,12 +18,12 @@ const Navbar = () => {
             </div>
             <div className='nav-links'>
                 {/* responsive button */}
-                <div class="menu" onClick={menuToggler()}>
+                <div class={`menu ${isActive ? 'change' : null}`} onClick={menuToggler}>
                     <div class="bar1"></div>
                     <div class="bar2"></div>
                     <div class="bar3"></div>
                 </div>
-                <ul className='flex justify-center align-center gap mobile'>
+                <ul className={`navlinks justify-center align-center gap ${!isActive ? 'dnone' : 'block'}`}>
                     <li><a href='/' className='white nav-link'>Home</a></li>
                     <li><a href='#about' className='white nav-link'>About</a></li>
                     <li><a href='#story' className='white nav-link'>Story</a></li>
