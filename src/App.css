@@ -261,11 +261,8 @@ a {
 
 }
 
-/* .discover-container {
-  padding: 0 10%;
-} */
 
-.spaceship-container {
+.mission-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -273,22 +270,22 @@ a {
   gap: 2rem;
 }
 
-.spaceship-container div {
+.mission-container div {
   background: #231E44;
   padding: 1rem;
   border-radius: 10px;
   box-shadow: #242424a8 0px 0px 20px 1px;
 }
 
-.spaceship-container div:hover {
+.mission-container div:hover {
   background: linear-gradient(95.79deg, #2317FA -33%, #ea00ff 97%);
 }
 
-.spaceship-container img {
+.mission-container img {
   width: 150px;
   height: 150px;
 }
 
-.spaceship-container p {
+.mission-container p {
   text-align: justify;
 }

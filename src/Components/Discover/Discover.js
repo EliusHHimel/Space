@@ -7,7 +7,7 @@ const Discover = () => {
     return (
         <div className='discover-container default-padding'>
             <h1>Discover Universe</h1>
-            <div className="spaceship-container">
+            <div className="mission-container">
                 <div>
                     <img src={spaceImg1} alt="spaceship" />
                     <h3>Mission Bongo</h3>
