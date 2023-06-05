@@ -71,7 +71,7 @@ const Spaceship = () => {
                     </select>
                     <select name="year" id="year">
                         <option value="">Year</option>
-                        <option value="active">2000 - 200 5</option>
+                        <option value="active">2000 - 2005</option>
                         <option value="inactive">2006 - 2010</option>
                         <option value="inactive">2011 - 2015</option>
                         <option value="inactive">2016 - 2020</option>
@@ -83,6 +83,10 @@ const Spaceship = () => {
                         <option value="inDev">In Development</option>
                     </select>
                 </div>
+                <div className="search">
+                    <input type="text" placeholder="Search" />
+                    <button>Search</button>
+                </div>
             </div>
             <div className="ship-list">
                 {
@@ -90,7 +94,9 @@ const Spaceship = () => {
                         <img src={ship.img} alt="" />
                         <h3>{ship.name}</h3>
                         <p>First Flight: {ship.year}</p>
-                        <p className={ship.status == 'Successful' ? 'green' : 'red'}>Status: {ship.status}</p>
+                        <p>Status: <span className={
+                            ship.status === 'Successful' ? 'green' : ship.status === 'Failed' ? 'red' : 'orange'
+                        }>{ship.status}</span> </p>
                     </div>)
 
                 }

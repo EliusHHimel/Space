@@ -265,7 +265,7 @@ a {
   color: red;
 }
 .green {
-  color: green;
+  color: #43d143;
 }
 .orange {
   color: orange;
@@ -308,11 +308,61 @@ a {
 .ship-list {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 2rem;
+  gap: 1rem;
   text-align: center;
+}
+.filter-options{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  background: #2D2853;
+  padding: 10px;
+  border-radius: 5px;
+}
+select {
+  background-color: #2D2853;
+  border: none;
+  color: whitesmoke;
+  margin-right: 15px;
+}
+.search input {
+  background-color: #2D2853;
+  border: none;
+  color: whitesmoke;
+  padding: 5px 10px;
+  border-radius: 5px 0px 0px 5px;
+  cursor: pointer;
+  border: 1px solid #3f3872;
+}
+.search input:hover {
+  background-color: #3f3a7c;
+}
+.search button {
+  background-color: #2D2853;
+  border: none;
+  color: whitesmoke;
+  padding: 5px 10px;
+  border-radius: 0px 5px 5px 0px;
+  cursor: pointer;
+  border: 1px solid #3f3872;
+}
+.search button:hover {
+  background-color: #3f3a7c;
+}
+
+.ship{
+  background: #1D0C41;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: #242424a8 0px 0px 20px 1px;
+  transition: 0.5s;
 }
 
 .ship img {
   width: 150px;
-  
+  height: 150px;
+}
+.ship p{
+  color: #c4c4c4;
 }
