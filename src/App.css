@@ -261,6 +261,16 @@ a {
 
 }
 
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
+.orange {
+  color: orange;
+}
+
 
 .mission-container {
   display: flex;
@@ -288,4 +298,21 @@ a {
 
 .mission-container p {
   text-align: justify;
+}
+.spaceship-container {
+  margin-top: 20px;
+}
+.filter-options{
+  margin-bottom: 20px;
+}
+.ship-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  text-align: center;
+}
+
+.ship img {
+  width: 150px;
+  
 }
