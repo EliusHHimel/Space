@@ -429,3 +429,16 @@ select {
 .newsletter button:hover {
   background-color: #8c0069;
 }
+
+.footer {
+  background: #18163B;
+  padding: 1rem;
+  color: #c4c4c4;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer a {
+  color: rgb(200, 200, 200);
+}
