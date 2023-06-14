@@ -264,9 +264,11 @@ a {
 .red {
   color: red;
 }
+
 .green {
   color: #43d143;
 }
+
 .orange {
   color: orange;
 }
@@ -299,19 +301,23 @@ a {
 .mission-container p {
   text-align: justify;
 }
+
 .spaceship-container {
   margin-top: 20px;
 }
-.filter-options{
+
+.filter-options {
   margin-bottom: 20px;
 }
+
 .ship-list {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
   text-align: center;
 }
-.filter-options{
+
+.filter-options {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -320,12 +326,14 @@ a {
   padding: 10px;
   border-radius: 5px;
 }
+
 select {
   background-color: #2D2853;
   border: none;
   color: whitesmoke;
   margin-right: 15px;
 }
+
 .search input {
   background-color: #2D2853;
   border: none;
@@ -335,9 +343,11 @@ select {
   cursor: pointer;
   border: 1px solid #3f3872;
 }
+
 .search input:hover {
   background-color: #3f3a7c;
 }
+
 .search button {
   background-color: #2D2853;
   border: none;
@@ -347,11 +357,12 @@ select {
   cursor: pointer;
   border: 1px solid #3f3872;
 }
+
 .search button:hover {
   background-color: #3f3a7c;
 }
 
-.ship{
+.ship {
   background: #1D0C41;
   padding: 1rem;
   border-radius: 10px;
@@ -363,6 +374,58 @@ select {
   width: 150px;
   height: 150px;
 }
-.ship p{
+
+.ship p {
   color: #c4c4c4;
+}
+
+.ship:hover {
+  transform: scale(1.05);
+  box-shadow: #242424a8 0px 0px 20px 1px;
+}
+
+.newsletter {
+  background: #18163B;
+  padding: 1rem;
+  text-align: center;
+}
+
+.newsletter h1 {
+  font-size: 2rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.newsletter p {
+  color: #c4c4c4;
+}
+
+.newsletter input {
+  background-color: #2D2853;
+  border: none;
+  color: whitesmoke;
+  padding: 5px 10px;
+  /* border-radius: 5px 0px 0px 5px; */
+  cursor: pointer;
+  border: 1px solid #3f3872;
+  width: 250px;
+  height: 38px;
+}
+
+.newsletter input:hover {
+  background-color: #3f3a7c;
+}
+
+.newsletter button {
+  background-color: #2D2853;
+  border: none;
+  color: whitesmoke;
+  padding: 5px 20px;
+  /* border-radius: 0px 5px 5px 0px; */
+  cursor: pointer;
+  border: 1px solid #82004c;
+  height: 50px;
+}
+
+.newsletter button:hover {
+  background-color: #8c0069;
 }
