@@ -18,7 +18,7 @@ const Footer = () => {
             <div className='flex justify-center align-center gap'>
                 <a href='https://www.facebook.com/eliushhimel' target='_blank' rel="noreferrer"><i className="fab fa-facebook-f"></i></a>
                 <a href='https://www.instagram.com/eliushhimel' target='_blank' rel="noreferrer"><i className="fab fa-instagram"></i></a>
-                <a href='https://www.twitter.com/' target='_blank' rel="noreferrer"><i className="fab fa-twitter"></i></a>
+                <a href='https://www.twitter.com/EliusHHimel' target='_blank' rel="noreferrer"><i className="fab fa-twitter"></i></a>
                 <a href='https://www.youtube.com/HmEliusHossainHimel' target='_blank' rel="noreferrer"><i className="fab fa-youtube"></i></a>
                 <a href="https://www.linkedin.com/in/eliushhimel">
                     <i className="fab fa-linkedin"></i>
