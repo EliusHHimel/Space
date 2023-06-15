@@ -168,99 +168,6 @@ a {
   display: flex;
 }
 
-
-/* Mobile Responsive */
-@media (max-width: 768px) {
-  .default-padding {
-    padding: 0% 5%;
-  }
-
-  .headline {
-    font-size: 3.5rem;
-    margin-top: 35px;
-  }
-
-  .pwidth {
-    width: 70%;
-    margin-top: 35px;
-  }
-
-  .welcome-text {
-    margin-top: 35%;
-  }
-
-  .dnone {
-    display: none;
-  }
-
-  .start-btn {
-    margin-top: 35px;
-  }
-
-  .navbar {
-    position: fixed;
-    justify-content: space-between;
-    padding: 0% 5%;
-    width: 90%;
-    top: 5px;
-    right: 0;
-    left: 0;
-  }
-
-  .nav-link {
-    width: 100%;
-  }
-
-  .menu {
-    display: inline-block;
-  }
-
-  .block {
-    display: block;
-    animation: reveal 1s;
-  }
-
-  .dnone {
-    display: none;
-  }
-
-  .navlinks {
-    position: fixed;
-    background: #2a2655;
-    padding: 10px 0px;
-    margin: 0;
-    right: 0;
-    left: 0;
-    border-radius: 10px;
-  }
-
-  .nav-link {
-    display: block;
-    padding: 10px 20px;
-    width: 100%;
-    margin: 0;
-  }
-
-  .nav-link:hover {
-    background: #3f3a7c;
-  }
-
-  .banner-container {
-    background-size: cover;
-  }
-
-  @keyframes reveal {
-    0% {
-      transform: translateX(100%);
-    }
-
-    100% {
-      transform: translateX(0%);
-    }
-  }
-
-}
-
 .red {
   color: red;
 }
@@ -442,4 +349,118 @@ select {
 
 .footer a {
   color: rgb(200, 200, 200);
+}
+
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .default-padding {
+    padding: 0% 5%;
+  }
+
+  .headline {
+    font-size: 3.5rem;
+    margin-top: 35px;
+  }
+
+  .pwidth {
+    width: 70%;
+    margin-top: 35px;
+  }
+
+  .welcome-text {
+    margin-top: 35%;
+  }
+
+  .dnone {
+    display: none;
+  }
+
+  .start-btn {
+    margin-top: 35px;
+  }
+
+  .navbar {
+    position: fixed;
+    justify-content: space-between;
+    padding: 0% 5%;
+    width: 90%;
+    top: 5px;
+    right: 0;
+    left: 0;
+  }
+
+  .nav-link {
+    width: 100%;
+  }
+
+  .menu {
+    display: inline-block;
+  }
+
+  .block {
+    display: block;
+    animation: reveal 1s;
+  }
+
+  .dnone {
+    display: none;
+  }
+
+  .navlinks {
+    position: fixed;
+    background: #2a2655;
+    padding: 10px 0px;
+    margin: 0;
+    right: 0;
+    left: 0;
+    border-radius: 10px;
+  }
+
+  .nav-link {
+    display: block;
+    padding: 10px 20px;
+    width: 100%;
+    margin: 0;
+  }
+
+  .nav-link:hover {
+    background: #3f3a7c;
+  }
+
+  .banner-container {
+    background-size: cover;
+  }
+
+  @keyframes reveal {
+    0% {
+      transform: translateX(100%);
+    }
+
+    100% {
+      transform: translateX(0%);
+    }
+  }
+
+  .mission-container {
+    display: block;
+  }
+
+  .mission-container div {
+    margin-top: 10px;
+  }
+
+  .ship-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer {
+    display: block;
+    text-align: center;
+  }
+
+  .newsletter {
+    display: block;
+  }
+
 }
