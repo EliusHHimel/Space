@@ -1,6 +1,6 @@
 # Stella - Space For Everyone
 
-This is a single-page web application built with React.js. I've built this app to practice my React skills and to learn more about the React ecosystem.
+This is a single-page web application built with React.js. I've built this app to practice my React skills and to learn more about the React ecosystem. It is fully responsive and works on all screen sizes.
 
 ## Running the app
 To run the app, clone this repository and run `npm install` to install the dependencies. Then run `npm start` to start the app. The app will be available at `localhost:3000`.
